@@ -16,5 +16,11 @@ public class Testone {
 	        System.out.println("Running Test Two");
 	        Assert.assertEquals("Jenkins", "Jenkins");
 	    }
+	    
+	    @Test
+	    public void testThree() {
+	        System.out.println("Running Test Three");
+	        Assert.assertEquals("Jenkins", "Jenkins");
+	    }
 	
 }
