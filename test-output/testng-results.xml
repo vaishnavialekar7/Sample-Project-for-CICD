@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-09T23:53:26 IST" name="Default suite" finished-at="2026-01-09T23:53:26 IST" duration-ms="68">
+  <suite started-at="2026-03-22T19:32:51 IST" name="Default suite" finished-at="2026-03-22T19:33:12 IST" duration-ms="21003">
     <groups>
     </groups>
-    <test started-at="2026-01-09T23:53:26 IST" name="Default test" finished-at="2026-01-09T23:53:26 IST" duration-ms="68">
-      <class name="samplePrjforJenkins.Testone">
-        <test-method signature="testOne()[pri:0, instance:samplePrjforJenkins.Testone@35aea049]" started-at="2026-01-09T23:53:26 IST" name="testOne" finished-at="2026-01-09T23:53:26 IST" duration-ms="14" status="PASS">
+    <test started-at="2026-03-22T19:32:51 IST" name="Default test" finished-at="2026-03-22T19:33:12 IST" duration-ms="21003">
+      <class name="tests.TestClass">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:tests.TestClass@729d991e]" started-at="2026-03-22T19:32:51 IST" name="LaunchBrowser" finished-at="2026-03-22T19:32:59 IST" duration-ms="8115" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testTwo()[pri:0, instance:samplePrjforJenkins.Testone@35aea049]" started-at="2026-01-09T23:53:26 IST" name="testTwo" finished-at="2026-01-09T23:53:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="TestTabelIteration()[pri:0, instance:tests.TestClass@729d991e]" started-at="2026-03-22T19:33:00 IST" name="TestTabelIteration" finished-at="2026-03-22T19:33:12 IST" duration-ms="12626" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- samplePrjforJenkins.Testone -->
+        </test-method> <!-- TestTabelIteration -->
+      </class> <!-- tests.TestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
